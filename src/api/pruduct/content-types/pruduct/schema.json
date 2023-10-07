@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pruducts",
+  "info": {
+    "singularName": "pruduct",
+    "pluralName": "pruducts",
+    "displayName": "pruduct"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
